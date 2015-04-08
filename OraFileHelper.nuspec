@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>OraFileHelper</id>
+        <version>1.0.0</version>
+        <authors>Jeremy Beavon</authors>
+        <projectUrl>https://github.com/jeremybeavon/OraFileHelper</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Parses and writes Oracle ora files</description>
+        <dependencies>
+            <dependency id="Antlr4.Runtime" version="4.3.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="OraFileHelper\bin\Release\OraFileHelper.dll" target="lib\net45\OraFileHelper.dll" />
+    </files>
+</package>
